@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Signupsuite">
+	<parameter name="title" value="Mrs."></parameter>
+	<parameter name="email" value="nik456@gmail.com"></parameter>
+	<parameter name="username" value="nikita"></parameter>
+	<parameter name="lastname" value="wankhede"></parameter>
+	<parameter name="password" value="abcefg@123"></parameter>
+	<parameter name="date_of_birth" value="4"></parameter>
+	<parameter name="month_of_birth" value="7"></parameter>
+	<parameter name="year_of_birth" value="1990"></parameter>
+	<parameter name="company" value="Neosoft"></parameter>
+	<parameter name="address1" value="Rabale1"></parameter>
+	<parameter name="address2" value="Rabale2"></parameter>
+	<parameter name="city" value="Mumbai"></parameter>
+	<parameter name="mobile" value="7709191219"></parameter>
+	<parameter name="reference" value="abc"></parameter>
+	
+	<test name="Signup">
+		<classes>
+			<class name="mystore.MystoreTest" />
+		</classes>
+	</test>
+
+</suite>
+

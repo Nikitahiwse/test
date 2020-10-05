@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <parameter name="address2" value="Rabale2"/>
+  <parameter name="city" value="Mumbai"/>
+  <parameter name="date_of_birth" value="4"/>
+  <parameter name="address1" value="Rabale1"/>
+  <parameter name="mobile" value="7709191219"/>
+  <parameter name="title" value="Mrs."/>
+  <parameter name="lastname" value="hiw"/>
+  <parameter name="year_of_birth" value="1990"/>
+  <parameter name="reference" value="abc"/>
+  <parameter name="password" value="Shri@nik2@"/>
+  <parameter name="month_of_birth" value="7"/>
+  <parameter name="company" value="Neosoft"/>
+  <parameter name="email" value="nikitahiwse@gmail.com"/>
+  <parameter name="username" value="nik"/>
+  <test thread-count="5" name="Signup(failed)">
+    <classes>
+      <class name="freecrm.Signup">
+        <methods>
+          <include name="signup" invocation-numbers="0"/>
+          <include name="Title_verification"/>
+        </methods>
+      </class> <!-- freecrm.Signup -->
+    </classes>
+  </test> <!-- Signup(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

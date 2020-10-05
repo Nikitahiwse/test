@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="address2" value="param-val-not-found"/>
+  <parameter name="city" value="param-val-not-found"/>
+  <parameter name="date_of_birth" value="param-val-not-found"/>
+  <parameter name="address1" value="param-val-not-found"/>
+  <parameter name="mobile" value="param-val-not-found"/>
+  <parameter name="title" value="Mrs."/>
+  <parameter name="lastname" value="param-val-not-found"/>
+  <parameter name="year_of_birth" value="param-val-not-found"/>
+  <parameter name="reference" value="param-val-not-found"/>
+  <parameter name="password" value="param-val-not-found"/>
+  <parameter name="month_of_birth" value="param-val-not-found"/>
+  <parameter name="company" value="param-val-not-found"/>
+  <parameter name="email" value="param-val-not-found"/>
+  <parameter name="username" value="param-val-not-found"/>
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="freecrm.Signup">
+        <methods>
+          <include name="logout"/>
+          <include name="initialization"/>
+          <include name="Title_verification"/>
+        </methods>
+      </class> <!-- freecrm.Signup -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

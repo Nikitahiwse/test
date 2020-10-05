@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="login">
+<parameter name="username" value="hiwsenikita04@gmail.com"></parameter>
+<parameter name="password" value="Shrinik2@"></parameter>
+<parameter name="search_item" value="Top"></parameter>
+  <test name="LoginTest">
+    <classes>
+      <class name="mystore.MystoreTest"/>
+    </classes>
+  </test>
+</suite>
